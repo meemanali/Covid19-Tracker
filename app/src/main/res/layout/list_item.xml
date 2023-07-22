@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="45dp"
+    android:paddingVertical="14dp"
+    android:background="#242D5A"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="HardcodedText" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:text="Active"
+            style="@style/myTextView" />
+        <TextView
+            android:id="@+id/txtActive"
+            android:layout_alignParentEnd="true"
+            android:text="0"
+            style="@style/myTextView"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout1"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/myTextView"
+            android:text="Confirmed" />
+        <TextView
+            android:id="@+id/txtConfirmed"
+            android:layout_alignParentEnd="true"
+            android:text="0"
+            style="@style/myTextView"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativelayout2"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/myTextView"
+            android:text="Recovered" />
+        <TextView
+            android:id="@+id/txtRecovered"
+            android:layout_alignParentEnd="true"
+            android:text="0"
+            style="@style/myTextView"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/relativelayout3"
+        app:layout_constraintStart_toStartOf="parent">
+        <TextView
+            style="@style/myTextView"
+            android:text="Deceased" />
+        <TextView
+            android:id="@+id/txtDeceased"
+            android:layout_alignParentEnd="true"
+            style="@style/myTextView"
+            android:text="0" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
