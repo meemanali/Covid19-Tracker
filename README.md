@@ -1,3 +1,4 @@
+# "Covid 19 Tracker"
 Welcome to "Covid 19 Tracker". It's a simple App which shows Indian states effected from Covid 19 pandemic. Some technologies used in this project are: 
 
 * Volley library
@@ -5,7 +6,7 @@ Welcome to "Covid 19 Tracker". It's a simple App which shows Indian states effec
 * Pull down to refresh
 * Shimmer effect library
 
-# "Covid 19 Tracker" Preview
+# Preview
 
 Main List
 <p align="center">
