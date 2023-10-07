@@ -8,6 +8,12 @@ Welcome to "Covid 19 Tracker". It's a simple App which shows Indian states effec
 
 # Preview
 
+<div>
+    <img src="https://github.com/meemanali/LGM-Android-Task1/blob/main/Covid%2019%20Tracker%201.png" alt="Main List" width="250" title="Main List">
+    <img src="https://github.com/meemanali/LGM-Android-Task1/blob/main/Covid%2019%20Tracker%202.png" alt="Sub List" width="250" title="Sub List">
+    <img src="https://github.com/meemanali/LGM-Android-Task1/blob/main/Covid%2019%20Tracker%203.png" alt="Loading" width="250" title="Loading">
+</div>
+
 Main List
 <p align="center">
   <img src="https://github.com/meemanali/LGM-Android-Task1/blob/main/Covid%2019%20Tracker%201.png" alt="Covid 19 Tracker" width="310" title="Main List">
