@@ -1,8 +1,8 @@
 # "Covid 19 Tracker"
 Welcome to "Covid 19 Tracker". It's a simple App which shows Indian states effected from Covid 19 pandemic. Some technologies used in this project are: 
 
-* Volley library
-* Uses Api provided by Govt of India
+* Volley library to fetch data
+* Use of Official Apis provided by Govt of India
 * Pull down to refresh
 * Shimmer effect library
 
